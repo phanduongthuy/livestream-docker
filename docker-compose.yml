@@ -72,9 +72,9 @@ services:
         container_name: rtmp_server
         volumes:
             - ./data:/tmp/hls
-    auth:
-        build: ./auth
-        container_name: auth_server
+#    auth:
+#        build: ./auth
+#        container_name: auth_server
 #Docker Networks
 networks:
     laravel:
